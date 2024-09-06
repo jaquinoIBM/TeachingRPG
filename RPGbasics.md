@@ -1,6 +1,6 @@
 **INTRODUCCIÓN A RPG IV**
 
-**-Variables:**
+## -Variables:
  *Numéricas*: Almacenan números enteros o decimales.
  Ejemplo:
  
@@ -17,7 +17,7 @@
 
   D   bandera   S   1N
    
-**-Operaciones básicas:**
+## -Operaciones básicas:
  *Suma*:
  Ejemplo:
 
@@ -38,7 +38,7 @@
  
   C   EVAL   resultado = num1 / num2
 
-**-Control:**
+## -Control:
  *IF/ELSE:*
  Ejemplo:
 
@@ -53,19 +53,19 @@
   C     EVAL   num1 = num1 + 10
   C   ENDDO
 
-**-Archivos:**
+## -Archivos:
  *CHAIN:* Leer registro por clave.
  Ejemplo:
 
   C   CHAIN   campoClave   nombreArchivo
 
-**-Funciones:**
+## -Funciones:
  *%DEC():* Convierte a decimal.
  Ejemplo:
 
   resultado = %DEC(valor:10:2)
 
-**-Ejemplo completo:**
+## -Ejemplo completo:
 Este programa recibe dos números, los suma, y si el resultado es mayor que 100, lo limita a 100.
 
   D num1   S   5  0
