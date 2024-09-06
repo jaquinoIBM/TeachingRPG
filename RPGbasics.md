@@ -2,6 +2,7 @@
 
 ## -Variables:
  *Numéricas*: Almacenan números enteros o decimales.
+ 
  Ejemplo:
  
   D   num1   S   5  0    // Número entero sin decimales
