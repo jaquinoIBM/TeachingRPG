@@ -58,7 +58,7 @@
 
   C   IF   num1 > 50
   
-  C     EVAL   resultado = num1 * 2
+  C      EVAL   resultado = num1 * 2
   
   C   ENDIF
 
