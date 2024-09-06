@@ -53,22 +53,26 @@
  *IF/ELSE:*
  
  Ejemplo:
+ 
 
   C   IF   num1 > 50
   
   C     EVAL   resultado = num1 * 2
   
   C   ENDIF
+  
 
  *Bucle DOU:*
  
  Ejemplo:
+
 
   C   DOU   num1 > 100
   
   C     EVAL   num1 = num1 + 10
   
   C   ENDDO
+
 
 ## -Archivos:
 
@@ -89,6 +93,7 @@
 ## -Ejemplo completo:
 
 Este programa recibe dos números, los suma, y si el resultado es mayor que 100, lo limita a 100.
+
 
   D num1   S   5  0
   
